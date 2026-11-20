@@ -1,2 +1,4 @@
 .vscode
 src/build
+src/managed_components/
+src/sdkconfig.old

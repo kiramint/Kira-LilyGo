@@ -1,0 +1,1 @@
+idf_component_register(SRCS "board.cpp" "audio.cpp" "runtime.cpp" "network.cpp" "ui.cpp" INCLUDE_DIRS "include" REQUIRES esp_driver_gpio esp_driver_ledc esp_driver_spi esp_driver_sdspi esp_driver_i2c esp_driver_i2s esp_lcd esp_adc fatfs nvs_flash esp_wifi esp_netif bt esp_psram esp_app_format)
